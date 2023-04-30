@@ -3,14 +3,13 @@ using namespace std;
 class stack
 {
 public:
-    stack();
-    ~stack();
+    int size;
+    int top;
+    int *s;
 };
 
-stack::stack(/* args */)
+void create(struct stack *st)
 {
-}
-
-stack::~stack()
-{
+    cout << "enter the size :";
+    cin >> st->size;
 }
